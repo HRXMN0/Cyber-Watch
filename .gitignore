@@ -1,0 +1,10 @@
+dataset/
+datasets/
+data/
+models/
+
+*.csv
+*.parquet
+*.pcap
+*.pkl
+*.zip
