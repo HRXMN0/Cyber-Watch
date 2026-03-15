@@ -1,9 +1,10 @@
-pandas
-numpy
-scikit-learn
+pandas==3.0.1
+numpy==2.4.3
+scikit-learn==1.8.0
 matplotlib
 seaborn
 flask
-joblib
+joblib==1.5.3
 jupyter
 requests
+gunicorn
