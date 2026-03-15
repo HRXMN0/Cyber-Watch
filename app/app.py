@@ -13,7 +13,7 @@ import time
 
 app = Flask(__name__)
 
-BASE_DIR = r"d:\cyber_attack_detection_project"
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 CONFIG_FILE = os.path.join(BASE_DIR, 'app', 'config.json')
 LOGS_FILE = os.path.join(BASE_DIR, 'app', 'logs.json')
 
