@@ -3,7 +3,7 @@
     "max_packet_rate_alert": 1000,
     "enable_auto_blocking": true,
     "enable_real_time_monitoring": true,
-    "default_ml_model": "CICIDS2017",
+    "default_ml_model": "NSL-KDD",
     "log_retention_duration": 32,
     "enable_email_alerts": true
 }

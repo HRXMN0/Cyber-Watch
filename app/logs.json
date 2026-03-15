@@ -1,5 +1,49 @@
 [
     {
+        "timestamp": "2026-03-15 13:06:17",
+        "src_ip": "Scanner Module",
+        "dst_ip": "142.250.193.78",
+        "protocol": "HTTP/HTTPS",
+        "attack_type": "TI Scan Results",
+        "confidence": 45,
+        "severity": "MEDIUM",
+        "action": "Monitored",
+        "model_used": "Active Scan"
+    },
+    {
+        "timestamp": "2026-03-15 13:05:41",
+        "src_ip": "192.168.9.175",
+        "dst_ip": "10.0.2.10",
+        "protocol": "TCP",
+        "attack_type": "DOS",
+        "confidence": 94.0,
+        "severity": "CRITICAL",
+        "action": "Monitored",
+        "model_used": "NSL-KDD"
+    },
+    {
+        "timestamp": "2026-03-15 13:05:31",
+        "src_ip": "192.168.3.45",
+        "dst_ip": "10.0.2.235",
+        "protocol": "TCP",
+        "attack_type": "BENIGN",
+        "confidence": 100.0,
+        "severity": "NONE",
+        "action": "Allowed",
+        "model_used": "CICIDS2017"
+    },
+    {
+        "timestamp": "2026-03-15 13:05:24",
+        "src_ip": "192.168.7.237",
+        "dst_ip": "10.0.5.197",
+        "protocol": "TCP",
+        "attack_type": "BENIGN",
+        "confidence": 93.6,
+        "severity": "NONE",
+        "action": "Allowed",
+        "model_used": "NSL-KDD"
+    },
+    {
         "timestamp": "2026-03-15 12:03:45",
         "src_ip": "192.168.1.191",
         "dst_ip": "10.0.2.49",
